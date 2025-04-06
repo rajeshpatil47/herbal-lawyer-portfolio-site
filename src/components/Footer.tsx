@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-playfair font-bold mb-4">John Doe</h3>
+            <h3 className="text-xl font-playfair font-bold mb-4">N S Patil</h3>
             <p className="text-gray-300 font-montserrat mb-6">
               Attorney & Herbal Wellness Expert committed to providing quality legal services and natural wellness solutions.
             </p>
@@ -57,7 +57,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400 font-montserrat">
-            &copy; {currentYear} John Doe. All Rights Reserved.
+            &copy; {currentYear} N S Patil. All Rights Reserved.
           </p>
         </div>
       </div>

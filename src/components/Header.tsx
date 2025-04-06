@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
@@ -12,7 +11,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <h1 className="text-xl font-playfair font-bold text-lawyer-primary">
-              <span className="text-lawyer-secondary">John</span> Doe
+              <span className="text-lawyer-secondary">N S</span> Patil
             </h1>
           </div>
           

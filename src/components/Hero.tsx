@@ -14,7 +14,7 @@ const Hero = () => {
                   Welcome to my professional portfolio
                 </h2>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-lawyer-primary leading-tight">
-                  John Doe
+                  N S Patil
                 </h1>
                 <p className="text-xl md:text-2xl text-lawyer-secondary mt-2 font-montserrat">
                   Attorney & Herbal Wellness Expert
@@ -42,7 +42,7 @@ const Hero = () => {
               {/* Replace with actual image of your father */}
               <img 
                 src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
-                alt="John Doe - Attorney & Herbal Wellness Expert" 
+                alt="N S Patil - Attorney & Herbal Wellness Expert" 
                 className="w-full h-full object-cover"
               />
             </div>

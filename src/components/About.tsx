@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Briefcase, Leaf } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="py-16 md:py-24 bg-white">
+  return <section id="about" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-lawyer-primary">About Me</h2>
@@ -19,9 +16,7 @@ const About = () => {
               </div>
               <div>
                 <h3 className="text-xl font-playfair font-semibold text-lawyer-secondary mb-2">Legal Practice</h3>
-                <p className="text-gray-600 font-montserrat leading-relaxed">
-                  With over two decades of experience in law, I specialize in corporate law, intellectual property, and civil litigation. My approach combines thorough legal knowledge with a client-focused perspective, ensuring that each case receives personalized attention and strategic counsel.
-                </p>
+                <p className="text-gray-600 font-montserrat leading-relaxed">With over one decade of experience in law, I specialize in corporate law, intellectual property, and civil litigation. My approach combines thorough legal knowledge with a client-focused perspective, ensuring that each case receives personalized attention and strategic counsel.</p>
               </div>
             </div>
             
@@ -73,8 +68,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
